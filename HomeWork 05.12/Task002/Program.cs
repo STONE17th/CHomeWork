@@ -1,4 +1,5 @@
-﻿Console.WriteLine("По двум заданным числам проверять является ли одно квадратом другого");
+﻿Console.Clear();
+Console.WriteLine("По двум заданным числам проверять является ли одно квадратом другого");
 
 bool Trigger = false;
 int NumA = 0, NumB = 0;
@@ -14,6 +15,7 @@ do
     }
     catch
     {
+        Console.Clear();
         Console.WriteLine("Вводите числа, а не то, что вздумается. Посерьезнее...");
         Trigger = true;
     }
