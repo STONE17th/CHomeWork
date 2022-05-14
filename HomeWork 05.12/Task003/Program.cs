@@ -12,7 +12,7 @@ do
     switch (Num)
     {
         case  1:
-            Console.Write($"В {Num} четверти значения X [0,-inf) и Y [0,+inf)");
+            Console.Write($"В {Num} четверти значения X (-inf,0] и Y [0,+inf)");
             Trigger = false;
             break;
         case 2:
@@ -20,11 +20,11 @@ do
             Trigger = false;
             break;
         case 3:
-            Console.Write($"В {Num} четверти значения X [0,-inf) и Y [0,-inf)");
+            Console.Write($"В {Num} четверти значения X (-inf,0] и Y (-inf,0]");
             Trigger = false;
             break;
         case 4:
-            Console.Write($"В {Num} четверти значения X [0,+inf;) и Y [0,-inf)");
+            Console.Write($"В {Num} четверти значения X [0,+inf;) и Y (-inf,0]");
             Trigger = false;
             break;
         default:
