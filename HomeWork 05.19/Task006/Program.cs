@@ -1,6 +1,6 @@
 ﻿Console.Clear();
-Console.WriteLine("Подсчитать сумму цифр в числе");
-Console.Write("Введите число: ");
+Console.WriteLine("Показать кубы чисел, заканчивающихся на четную цифру");
+Console.Write("Введите предел последовательности: ");
 int NumberA =  int.Parse(Console.ReadLine() ?? "0");
 
 Console.WriteLine($"Четные значения кубов чисел от 1 до {NumberA}");
