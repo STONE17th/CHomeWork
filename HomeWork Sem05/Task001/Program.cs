@@ -10,7 +10,11 @@ float k2 =  float.Parse(Console.ReadLine() ?? "0");
 Console.Write("Введите коэффициент b2: ");
 float b2 =  float.Parse(Console.ReadLine() ?? "0");
 
-float x = (b2-b1)/(k1-k2);
-float y = k1*x+b1;
-
-Console.Write($"координаты точки пересечения прямых x={x}, y={y}");
+if (k1 == k2)
+    Console.Write($"Эти прямые не пересекаются. Они параллельны друг другу");
+else
+{
+    float x = (b2-b1)/(k1-k2);
+    float y = k1*x+b1;
+    Console.Write($"координаты точки пересечения прямых x={x}, y={y}");
+}
