@@ -12,7 +12,6 @@ for (int i=0; i<Convert.ToInt32(SetArr[0]); i++)
 {
     array[i] = new Random().Next(Convert.ToInt32(SetArr[1]),Convert.ToInt32(SetArr[2]));
     Console.Write($"{array[i]} ");
-    newArray[i] = array[i];
 }
 Console.WriteLine("");
 
