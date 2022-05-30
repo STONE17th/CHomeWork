@@ -3,7 +3,7 @@ Console.WriteLine("Написать программу масштабирова�
 Console.Write("Введите координаты вершин изначальной фигуры в формате (x,y через пробел): ");
 string origCoord = Console.ReadLine() ?? "0";
 Console.Write("Введите коэффициент масштабирования: ");
-double Number =  Convert.ToDouble(Console.ReadLine() ?? "0");
+double Number =  double.Parse(Console.ReadLine() ?? "0");
 string[] CoordArr = origCoord.Split(" ");
 string scaleCoord = "x:y  ";
 for (int i=0; i<CoordArr.Length; i++)
